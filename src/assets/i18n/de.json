@@ -32,7 +32,8 @@
             "city": "Stadt",
             "phoneNumber": "Telefonnummer",
             "messega": "Nachricht",
-            "sendMessage": "Sende mir einen Nachricht"
+            "sendMessage": "Sende mir einen Nachricht",
+            "meLocation": "Mein Standort"
         }
     }
 }

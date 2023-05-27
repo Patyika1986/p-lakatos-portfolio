@@ -16,6 +16,8 @@ import { ContactButtonComponent } from './component/directive/contact-button/con
 import { ContactComponent } from './modules/contact/component/contact/contact.component';
 import { SendFormDirective } from './component/directive/send-form.directive';
 import { SendFormButtonComponent } from './component/directive/send-form-button/send-form-button.component';
+import { LocationComponent } from './modules/contact/component/location/location.component';
+
 
 
 @NgModule({
@@ -29,6 +31,7 @@ import { SendFormButtonComponent } from './component/directive/send-form-button/
     ContactComponent,
     SendFormDirective,
     SendFormButtonComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
