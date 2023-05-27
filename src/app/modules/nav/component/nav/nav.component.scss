@@ -1,0 +1,16 @@
+.navbar {
+    font-weight: var(--font-weight);
+}
+.language {
+    width: 95vw;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: right;
+
+    .form-select {
+        width: 175px;
+        background-color: var(--green);
+        font-weight: var(--font-weight);
+    }
+
+}
