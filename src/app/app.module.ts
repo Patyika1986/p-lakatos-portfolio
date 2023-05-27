@@ -17,6 +17,7 @@ import { ContactComponent } from './modules/contact/component/contact/contact.co
 import { SendFormDirective } from './component/directive/send-form.directive';
 import { SendFormButtonComponent } from './component/directive/send-form-button/send-form-button.component';
 import { LocationComponent } from './modules/contact/component/location/location.component';
+import { CvcComponent } from './modules/cvc/component/cvc/cvc.component';
 
 
 
@@ -31,7 +32,8 @@ import { LocationComponent } from './modules/contact/component/location/location
     ContactComponent,
     SendFormDirective,
     SendFormButtonComponent,
-    LocationComponent
+    LocationComponent,
+    CvcComponent
   ],
   imports: [
     BrowserModule,

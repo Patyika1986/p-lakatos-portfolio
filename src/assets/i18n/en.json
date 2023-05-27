@@ -34,9 +34,26 @@
             "zipCode": "Zip Code",
             "city": "City",
             "phoneNumber": "Phone number",
-            "messega": "Mesagge",
+            "messega": "Message",
             "sendMessage": "Send me a message",
-            "meLocation": "Me location"
+            "meLocation": "My location"
+        },
+        "cvc-overview": {
+            "personalData": "Personal Data",
+            "firstnamaLastname": "Firstname Lastname:",
+            "address": "Schottengasse 2, 90402 Nürnberg",
+            "tel": "+4917642794462",
+            "email": "peter.lakatos@outlook.de",
+            "nationality": "Slovak",
+            "birthDate": "06.08.1986",
+            "gender": "Masculine",
+            "DesiredPosition": "Frontend Developer",
+            "Experience": "Work experience",
+            "period": "Period",
+            "position": "Position",
+            "areasOfResponsibility": "areas of responsibility",
+            "employerAddress": "Employer / Address",
+            "TypeOfBusiness": "Type of business"
         }
     }
 }

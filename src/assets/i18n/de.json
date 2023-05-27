@@ -34,6 +34,23 @@
             "messega": "Nachricht",
             "sendMessage": "Sende mir einen Nachricht",
             "meLocation": "Mein Standort"
+        },
+        "cvc-overview": {
+            "personalData": "Persönliche Daten",
+            "firstnamaLastname": "Vorname Nachname:",
+            "address": "Schottengasse 2, 90402 Nürnberg",
+            "tel": "+4917642794462",
+            "email": "peter.lakatos@outlook.de",
+            "nationality": "Slowakisch",
+            "birthDate": "06.08.1986",
+            "gender": "Männlich",
+            "DesiredPosition": "Frontend Entwickler",
+            "Experience": "Berufserfahrung",
+            "period": "Zeitraum",
+            "position": "Position",
+            "areasOfResponsibility": "Aufgabenbereiche",
+            "employerAddress": "Arbeitgeber / Adresse",
+            "TypeOfBusiness": "Art des Unternehmens"
         }
     }
 }
