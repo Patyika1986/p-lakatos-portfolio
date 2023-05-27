@@ -24,16 +24,8 @@
         },
         "contsctForm": {
             "contactMe": "Contact me",
-            "firstname": "Firstname",
-            "lastname": "Lastname",
+            "name": "Name",
             "email": "E-Mail",
-            "areCompany": "Are you company ?",
-            "thenCheck": "then please check",
-            "companyName": "Company name",
-            "streetNumber": "Street / Number",
-            "zipCode": "Zip Code",
-            "city": "City",
-            "phoneNumber": "Phone number",
             "messega": "Message",
             "sendMessage": "Send me a message",
             "meLocation": "My location"

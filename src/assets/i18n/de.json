@@ -21,16 +21,8 @@
         },
         "contsctForm": {
             "contactMe": "Kontaktiere mich",
-            "firstname": "Vorname",
-            "lastname": "Nachname",
+            "name": "Name",
             "email": "E-Mail",
-            "areCompany": "Sie sind eine Firma ?",
-            "thenCheck": "Dann bitte checken",
-            "companyName": "Firmenname",
-            "streetNumber": "Strasse / Hausnummer",
-            "zipCode": "Postleizahl",
-            "city": "Stadt",
-            "phoneNumber": "Telefonnummer",
             "messega": "Nachricht",
             "sendMessage": "Sende mir einen Nachricht",
             "meLocation": "Mein Standort"

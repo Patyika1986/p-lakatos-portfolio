@@ -19,7 +19,7 @@ import { SendFormButtonComponent } from './component/directive/send-form-button/
 import { LocationComponent } from './modules/contact/component/location/location.component';
 import { CvcComponent } from './modules/cvc/component/cvc/cvc.component';
 
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -39,6 +39,8 @@ import { CvcComponent } from './modules/cvc/component/cvc/cvc.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
