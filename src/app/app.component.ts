@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TransService } from './service/trans.service';
+import { TranslateService } from '@ngx-translate/core'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor(public trans: TransService, public translate: TranslateService){
+
+  }
   title = 'p-lakatos-portfolio';
 }

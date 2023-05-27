@@ -1,0 +1,14 @@
+{
+    "translateNav": {
+        "firstLink": "Startseite",
+        "secondLinkDropdown": {
+            "projects": "Projekte",
+            "eCommerceShop": "E-commerce Shop",
+            "housekeepingCalculator": "Haushaltsbuch Rechner"
+        },
+        "cvc": "Lebenslauf",
+        "buttonText": {
+            "search": "Suchen"
+        }
+    }
+}

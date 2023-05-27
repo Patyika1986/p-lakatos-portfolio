@@ -1,0 +1,17 @@
+{
+    "translateNav": {
+        "firstLink": "Home",
+        "secondLinkDropdown": {
+            "projects": "Projects",
+            "eCommerceShop": "E-commerce Shop",
+            "housekeepingCalculator": "Housekeeping Calculator"
+        },
+        "cvc": "CVC",
+        "buttonText": {
+            "search": "Search"
+        },
+        "inputsText": {
+            "search": "Search"
+        }
+    }
+}
