@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+.container {
+  .row {
+    color: var(--gray);
+    font-weight: var(--font-weight);
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+}

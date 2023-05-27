@@ -5,11 +5,10 @@
     background: var(--gray);
     font-weight: var(--font-weight);
     transition: all 0.2s ease;
+
+    &:active {
+        transform: scale(0.96);
+        opacity: .9;
+    }
    
 }
-
-#contact-button:active {
-    transform: scale(0.96);
-    opacity: .9;
-}
-

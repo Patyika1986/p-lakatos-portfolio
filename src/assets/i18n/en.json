@@ -4,12 +4,14 @@
         "secondLinkDropdown": {
             "projects": "Projects",
             "eCommerceShop": "E-commerce Shop",
-            "housekeepingCalculator": "Housekeeping Calculator"
+            "housekeepingCalculator": "Housekeeping Calculator",
+            "contact": "Contact"
         },
         "cvc": "CVC",
         "buttonText": {
             "search": "Search",
-            "contactMe": "Contact me"
+            "contactMe": "Contact me",
+            "sendContactForm": "Send"
         },
         "inputsText": {
             "search": "Search"
@@ -19,6 +21,21 @@
             "iam": "I'm Peter,",
             "webDeveloper": "web Developer",
             "frontendDeveloper": "Front End Developer / Angular Expert"
+        },
+        "contsctForm": {
+            "contactMe": "Contact me",
+            "firstname": "Firstname",
+            "lastname": "Lastname",
+            "email": "E-Mail",
+            "areCompany": "Are you company ?",
+            "thenCheck": "then please check",
+            "companyName": "Company name",
+            "streetNumber": "Street / Number",
+            "zipCode": "Zip Code",
+            "city": "City",
+            "phoneNumber": "Phone number",
+            "messega": "Mesagge",
+            "sendMessage": "Send me a message"
         }
     }
 }

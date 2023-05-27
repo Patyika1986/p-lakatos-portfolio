@@ -13,6 +13,10 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ContentComponent } from './component/content/content.component';
 import { ContactButtonDirective } from './component/directive/contact-button.directive';
 import { ContactButtonComponent } from './component/directive/contact-button/contact-button.component';
+import { ContactComponent } from './modules/contact/component/contact/contact.component';
+import { SendFormDirective } from './component/directive/send-form.directive';
+import { SendFormButtonComponent } from './component/directive/send-form-button/send-form-button.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +25,10 @@ import { ContactButtonComponent } from './component/directive/contact-button/con
     NavComponent,
     ContentComponent,
     ContactButtonDirective,
-    ContactButtonComponent
+    ContactButtonComponent,
+    ContactComponent,
+    SendFormDirective,
+    SendFormButtonComponent,
   ],
   imports: [
     BrowserModule,

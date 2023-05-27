@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ContactComponent } from './component/contact/contact.component';
 import { RouterModule, Routes } from '@angular/router';
-import { NavComponent } from './component/nav/nav.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 const routes: Routes = [
-  { path: '', component: NavComponent },
+  { path: 'to-contact', component: ContactComponent}
 ]
 
 @NgModule({
   declarations: [
+    
   ],
   imports: [
     CommonModule,
-    RouterModule,
-    BrowserAnimationsModule
+    RouterModule
   ],
   exports: [
     RouterModule
   ]
 })
-export class NavModule { }
+export class ContactModule { }

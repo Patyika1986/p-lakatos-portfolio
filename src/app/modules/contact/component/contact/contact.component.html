@@ -1,0 +1,151 @@
+<div class="wrapper">
+  <app-nav></app-nav>
+  <div class="container mt-5">
+    <div class="row mb-5">
+      <div class="col">
+        <h2>{{ "translateNav.contsctForm.contactMe" | translate }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <label class="form-label">
+          {{ "translateNav.contsctForm.firstname" | translate }}
+        </label>
+        <input
+          type="text"
+          name="firstName"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.firstname' | translate }}"
+        />
+      </div>
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.lastname" | translate
+        }}</label>
+        <input
+          type="text"
+          name="lastName"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.lastname' | translate }}"
+        />
+      </div>
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.email" | translate
+        }}</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.email' | translate }}"
+        />
+      </div>
+    </div>
+    <div class="row mt-3 mb-3">
+      <div class="col">
+        <span class="text-muted">{{
+          "translateNav.contsctForm.areCompany" | translate
+        }}</span>
+      </div>
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.thenCheck" | translate
+        }}</label>
+        &nbsp;
+        <input type="checkbox" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.companyName" | translate
+        }}</label>
+        <input
+          type="text"
+          name="companyName"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.companyName' | translate }}"
+        />
+      </div>
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.streetNumber" | translate
+        }}</label>
+        <input
+          type="text"
+          name="street"
+          class="form-control"
+          placeholder="{{
+            'translateNav.contsctForm.streetNumber' | translate
+          }}"
+        />
+      </div>
+      <div class="col">
+        <label class="form-label" id="#to_contact">{{
+          "translateNav.contsctForm.zipCode" | translate
+        }}</label>
+        <input
+          type="text"
+          name="zipCode"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.zipCode' | translate }}"
+        />
+      </div>
+    </div>
+    <div class="row mt-3" id="ich">
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.city" | translate
+        }}</label>
+        <input
+          type="text"
+          name="city"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.city' | translate }}"
+        />
+      </div>
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.email" | translate
+        }}</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.email' | translate }}"
+        />
+      </div>
+      <div class="col">
+        <label class="form-label">{{
+          "translateNav.contsctForm.phoneNumber" | translate
+        }}</label>
+        <input
+          type="tel"
+          name="phoneNumber"
+          class="form-control"
+          placeholder="{{ 'translateNav.contsctForm.phoneNumber' | translate }}"
+        />
+      </div>
+    </div>
+    <div class="row mt-3 mb-4">
+      <label class="form-label">{{
+        "translateNav.contsctForm.messega" | translate
+      }}</label>
+      <div class="col">
+        <textarea
+          class="form-control"
+          name="message"
+          rows="10"
+          cols="10"
+          placeholder="{{ 'translateNav.contsctForm.sendMessage' | translate }}"
+        ></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <app-send-form-button appSendForm></app-send-form-button>
+      </div>
+    </div>
+  </div>
+</div>

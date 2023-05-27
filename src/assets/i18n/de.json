@@ -4,18 +4,35 @@
         "secondLinkDropdown": {
             "projects": "Projekte",
             "eCommerceShop": "E-commerce Shop",
-            "housekeepingCalculator": "Haushaltsbuch Rechner"
+            "housekeepingCalculator": "Haushaltsbuch Rechner",
+            "contact": "Kontakt"
         },
         "cvc": "Lebenslauf",
         "buttonText": {
             "search": "Suchen",
-            "contactMe": "Kontaktiere mich"
+            "contactMe": "Kontaktiere mich",
+            "sendContactForm": "Senden"
         },
         "contentText": {
             "hi": "Hey,",
             "iam": "Ich bin Peter,",
             "webDeveloper": "Web Entwickler",
             "frontendDeveloper": "Front End Developer / Angular Experte"
+        },
+        "contsctForm": {
+            "contactMe": "Kontaktiere mich",
+            "firstname": "Vorname",
+            "lastname": "Nachname",
+            "email": "E-Mail",
+            "areCompany": "Sie sind eine Firma ?",
+            "thenCheck": "Dann bitte checken",
+            "companyName": "Firmenname",
+            "streetNumber": "Strasse / Hausnummer",
+            "zipCode": "Postleizahl",
+            "city": "Stadt",
+            "phoneNumber": "Telefonnummer",
+            "messega": "Nachricht",
+            "sendMessage": "Sende mir einen Nachricht"
         }
     }
 }

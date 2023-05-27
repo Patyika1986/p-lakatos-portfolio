@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, ElementRef, HostListener, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contact-button',
@@ -6,5 +6,13 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./contact-button.component.scss']
 })
 export class ContactButtonComponent {
+  constructor(private element: ElementRef){
+
+  }
+
+  scrollDown(){
+
+  }
+
 
 }

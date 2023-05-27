@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">PL</a>
+    <a class="navbar-brand" routerLink="/overview">PL</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">
+          <a class="nav-link active" aria-current="page" routerLink="/overview">
             {{ "translateNav.firstLink" | translate }}
           </a>
         </li>
@@ -48,6 +48,11 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"> {{ "translateNav.cvc" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact-overview">
+            {{ "translateNav.secondLinkDropdown.contact" | translate }}</a
+          >
         </li>
       </ul>
       <form class="d-flex" role="search">
