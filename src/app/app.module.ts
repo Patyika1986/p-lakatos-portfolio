@@ -10,12 +10,18 @@ import { NavComponent } from './modules/nav/component/nav/nav.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ContentComponent } from './component/content/content.component';
+import { ContactButtonDirective } from './component/directive/contact-button.directive';
+import { ContactButtonComponent } from './component/directive/contact-button/contact-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OverviewComponent,
-    NavComponent
+    NavComponent,
+    ContentComponent,
+    ContactButtonDirective,
+    ContactButtonComponent
   ],
   imports: [
     BrowserModule,

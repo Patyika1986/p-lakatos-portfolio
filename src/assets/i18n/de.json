@@ -8,7 +8,14 @@
         },
         "cvc": "Lebenslauf",
         "buttonText": {
-            "search": "Suchen"
+            "search": "Suchen",
+            "contactMe": "Kontaktiere mich"
+        },
+        "contentText": {
+            "hi": "Hey,",
+            "iam": "Ich bin Peter,",
+            "webDeveloper": "Web Entwickler",
+            "frontendDeveloper": "Front End Developer / Angular Experte"
         }
     }
 }

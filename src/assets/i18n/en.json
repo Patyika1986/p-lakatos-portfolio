@@ -8,10 +8,17 @@
         },
         "cvc": "CVC",
         "buttonText": {
-            "search": "Search"
+            "search": "Search",
+            "contactMe": "Contact me"
         },
         "inputsText": {
             "search": "Search"
+        },
+        "contentText": {
+            "hi": "Hi,",
+            "iam": "I'm Peter,",
+            "webDeveloper": "web Developer",
+            "frontendDeveloper": "Front End Developer / Angular Expert"
         }
     }
 }

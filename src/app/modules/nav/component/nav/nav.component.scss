@@ -1,5 +1,7 @@
 .navbar {
+    width: 100vw;
     font-weight: var(--font-weight);
+    background-color: var(--gray);
 }
 .language {
     width: 95vw;
@@ -9,7 +11,7 @@
 
     .form-select {
         width: 175px;
-        background-color: var(--green);
+        background-color: var(--gray);
         font-weight: var(--font-weight);
     }
 
