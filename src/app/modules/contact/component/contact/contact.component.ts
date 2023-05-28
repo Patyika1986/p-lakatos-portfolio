@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { FormBuilder, Validators } from '@angular/forms';
+import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent {
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(private formBuilder: FormBuilder) {
+
+    
+  }
 
   form = this.formBuilder.group({
     name: [
@@ -36,7 +40,7 @@ export class ContactComponent {
 
   if(this.form.status === 'VALID'){
     this.sendEmailText = 'Send E-mail was succesfully !';
-    emailjs.init('EKtyhqg0Z1xoifBXK');
+    emailjs.init(environment.apiKey);
 
     let params = {
       from_name: this.form.value.name,
@@ -46,8 +50,8 @@ export class ContactComponent {
 
     try {
       const mail = await emailjs.send(
-        'service_ih56a6r',
-        'template_cosztd9',
+        environment.service,
+        environment.template,
         params
       );
 
