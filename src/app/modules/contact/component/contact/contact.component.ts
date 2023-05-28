@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { FormBuilder, Validators } from '@angular/forms';
-import { environment } from 'src/environments/environment';
+import { environment } from 'environments/environment';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
