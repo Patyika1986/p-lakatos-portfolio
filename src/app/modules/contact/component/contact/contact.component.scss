@@ -3,10 +3,12 @@
   min-height: 100vh;
   background-color: var(--bg-color);
 }
+
 .container {
   .row {
     color: var(--gray);
     font-weight: var(--font-weight);
+
     @media (max-width: 768px) {
       flex-direction: column;
     }
@@ -22,8 +24,8 @@
   transition: all 0.2s ease;
 
   &:active {
-      transform: scale(0.96);
-      opacity: .9;
+    transform: scale(0.96);
+    opacity: .9;
   }
- 
+
 }
