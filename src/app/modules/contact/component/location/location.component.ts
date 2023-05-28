@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-location',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class LocationComponent {
 
+ public sendEMail: string = 'Send E-Mail';
+ @Input() isFormValiede: boolean = false
 }

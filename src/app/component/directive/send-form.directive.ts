@@ -1,4 +1,4 @@
-import { Directive, HostListener } from '@angular/core';
+import { Directive, HostListener, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Directive({
@@ -7,6 +7,9 @@ import { Router } from '@angular/router';
 export class SendFormDirective {
 
   constructor(private router: Router) { }
+
+  @Input({required:true}) mailAnswer: boolean = false;
+  @Input({required:true}) mailAnswerWrong: boolean = false;
 
   @HostListener('click')
   nextFunction() {
