@@ -3,7 +3,7 @@
         "firstLink": "Home",
         "secondLinkDropdown": {
             "projects": "Projects",
-            "eCommerceShop": "E-commerce Shop",
+            "personnelAndOrderManagement": "Personnel and order management",
             "housekeepingCalculator": "Housekeeping Calculator",
             "contact": "Contact"
         },
